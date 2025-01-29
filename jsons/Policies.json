@@ -23,9 +23,9 @@
                 "column": 2
             },
             {
-                "name": "Ode to Missile",
+                "name": "The Study Missilology",
                 "uniques": [
-            "Comment [Unlocks the 'Ode to Missile' building.]"
+                    "Comment [Unlocks the 'Missilology Institute' building.]"
                 ],
                 "row": 2,
                 "column": 4
@@ -33,7 +33,7 @@
             {
                 "name": "Arsenal of Democracy",
                 "uniques": [
-                    "Comment [50% of all Gold, Science, Faith, Culture, and Food is converted into Production when building Missile units.]"
+                    "Comment [50% of all Gold, Science, and Food is converted into Production when building Missile units.]"
                 ],
                 "row": 1,
                 "column": 5
@@ -42,9 +42,11 @@
                 "name": "True Missilocracy",
                 "uniques": [
                     "[+1 Happiness, +1 Culture, +1 Faith] [in all cities] per every [3] [Missile]",
-                    "[+5 Happiness, +5 Culture, +5 Faith, +5 Production, +5 Science] from all [Nuclear Test Site] buildings"
+                    "[+5 Happiness, +3 Culture, +3 Faith, +5 Production, +5 Science] from all [Nuclear Testing Site] buildings",
+                    "Comment [+2 Faith and +2 Culture from every Missile Silo]",
+                    "Comment [+2 Faith and +2 Culture from every Missilology Institute within 3 tiles from a Missile Silo."
                 ],
-                "requires": ["Efficient Propulsion", "Hypersonic Missiles", "Ode to Missile", "Arsenal of Democracy"],
+                "requires": ["Efficient Propulsion", "Hypersonic Missiles", "The Study of Missilology", "Arsenal of Democracy"],
                 "row": 3,
                 "column": 3
             },
