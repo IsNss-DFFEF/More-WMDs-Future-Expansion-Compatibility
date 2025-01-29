@@ -11,5 +11,19 @@
 			"Comment [Start an unbeatable and debilitating pandemic.]",
 			
 		"Triggers a global alert upon build start","Triggers a global alert upon completion"]
-	}
+	},
+	{
+		"name": "Ode to Missile",
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"production": 2,
+		"maintenance": 2,
+		"requiredResource": "Power",
+		"cost": 500,
+		"uniques": [
+			"Can only be built <after adopting [Ode to Missile]>",
+			"Comment [+25% Production when constructing Missile units]"
+		]
+	},
 ]
