@@ -7,7 +7,7 @@
         ],
         "policies": [
             {
-                "name": "Efficient Propulsion",
+                "name": "Hypersonic Missiles",
                 "uniques": [
                     "[+25]% strength <for [Missile] units>", "[+3] Range <for [Missile] units>"
                 ],
@@ -15,15 +15,16 @@
                 "column": 1
             },
             {
-                "name": "Hypersonic Missiles",
+                "name": "Homing Missiles",
                 "uniques": [
-                    "[+12] Air Interception Range <for [Guided Missile] units>"
+                    "[+12] Air Interception Range <for [Guided Missile] units>",
+                    "Comment [Guided Missiles and Mobile SAMs can intercept missiles, Guided Missiles can now also intercept most aircraft]"
                 ],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "The Study Missilology",
+                "name": "The Study of Missilology",
                 "uniques": [
                     "Comment [Unlocks the 'Missilology Institute' building.]"
                 ],
@@ -41,12 +42,12 @@
             {
                 "name": "True Missilocracy",
                 "uniques": [
-                    "[+1 Happiness, +1 Culture, +1 Faith] [in all cities] per every [3] [Missile]",
+                    "[+1 Happiness, +1 Culture, +1 Faith] [in all cities] per every [6] [Missile]",
                     "[+5 Happiness, +3 Culture, +3 Faith, +5 Production, +5 Science] from all [Nuclear Test Site] buildings",
                     "Comment [+2 Faith and +2 Culture from every Missile Silo]",
                     "Comment [+2 Faith and +2 Culture from every Missilology Institute within 3 tiles from a Missile Silo."
                 ],
-                "requires": ["Efficient Propulsion", "Hypersonic Missiles", "The Study of Missilology", "Arsenal of Democracy"],
+                "requires": ["Hypersonic Missiles", "Homing Missiles", "The Study of Missilology", "Arsenal of Democracy"],
                 "row": 3,
                 "column": 3
             },
