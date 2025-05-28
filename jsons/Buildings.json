@@ -11,21 +11,5 @@
 			"Comment [Start an unbeatable and debilitating pandemic.]",
 			
 		"Triggers a global alert upon build start","Triggers a global alert upon completion"]
-	},
-	{
-		"name": "Missilology Institute",
-		"science": 2,
-		"happiness": 2,
-		"production": 2,
-		"maintenance": 2,
-		"specialistSlots": {"Missilologist": 3},
-		"greatPersonPoints": {"Great Missilologist": 3},
-		"requiredResource": "Power",
-		"cost": 500,
-		"uniques": [
-			"Can only be built <after adopting [The Study of Missilology]>",
-			"Comment [+25% Production when constructing Missile units]",
-			"[+2 Faith, +2 Culture] <within [3] tiles of a [Missile Silo]> <after adopting [True Missilocracy]>"
-		]
 	}
 ]
